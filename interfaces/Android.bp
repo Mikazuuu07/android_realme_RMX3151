@@ -1,0 +1,5 @@
+hidl_package_root {
+    name: "vendor.oppo.hardware",
+    path: "device/realme/RMX3151/interfaces",
+}
+
