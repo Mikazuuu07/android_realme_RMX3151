@@ -52,6 +52,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.mt6768.rc
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+   $(DEVICE_PATH)/overlay
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
